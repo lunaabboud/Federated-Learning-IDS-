@@ -1,6 +1,4 @@
-# Federated-Learning-IDS-
-# Federated Learning Intrusion Detection System (FL-IDS) :
-Containerized with Docker 
+# Federated Learning Intrusion Detection System (FL-IDS): Containerized with Docker 
 
 A distributed, privacy-preserving intrusion detection system that uses federated learning to train machine learning models across multiple nodes without sharing sensitive data.
 
