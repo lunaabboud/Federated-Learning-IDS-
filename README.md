@@ -1,5 +1,4 @@
 # Federated-Learning-IDS-
-Federated Learning approach for Intrusion Detection Systems
 # Federated Learning Intrusion Detection System (FL-IDS)
 
 A distributed, privacy-preserving intrusion detection system that uses federated learning to train machine learning models across multiple nodes without sharing sensitive data.
