@@ -63,13 +63,13 @@ The system includes comprehensive visualization tools:
 
 1. **Start the federated learning system with visualization**:
    ```bash
-   python run_visualization.py
+   python3 run_visualization.py
    ```
    This will start the server and client containers, capture logs, and generate visualizations automatically.
 
 2. **Visualize existing logs**:
    ```bash
-   python visualize_existing.py
+   python3 visualize_existing.py
    ```
    This allows you to choose from previously captured logs and generate new visualizations.
 
@@ -79,10 +79,10 @@ The system includes comprehensive visualization tools:
    docker-compose up
    
    # In a separate terminal, to capture logs:
-   python capture_logs.py --output logs/my_training.log
+   python3 capture_logs.py --output logs/my_training.log
    
    # Generate visualizations after training:
-   python visualize.py --log logs/my_training.log --output visualizations
+   python3 visualize.py --log logs/my_training.log --output visualizations
    ```
 
 ### Data Preparation
@@ -90,7 +90,7 @@ The system includes comprehensive visualization tools:
 The system expects data in CSV format with features and a "Label" column indicating benign or malicious traffic. Use the `preprocess.py` script to prepare your own data:
 
 ```bash
-python preprocess.py
+python3 preprocess.py
 ```
 
 ## 📈 Results & Outputs
